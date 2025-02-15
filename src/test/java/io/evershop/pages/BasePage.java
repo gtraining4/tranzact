@@ -14,7 +14,8 @@ import java.time.Duration;
 public class BasePage {
 
     protected WebDriver driver;
-    WebDriverWait wait,wait2;
+    WebDriverWait wait,
+                  wait2;
     int timeoutSec = 10;
     int timeoutSec2 = 1;
 
